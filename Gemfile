@@ -38,10 +38,13 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 group :development, :test do
-	gem 'sqlite3-ruby'
+	gem 'sqlite3'
 end
 
 group :production do
 	gem 'pg'
 end
+
+gem 'thin'
+gem 'therubyracer'
  
