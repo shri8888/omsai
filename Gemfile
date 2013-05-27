@@ -46,5 +46,5 @@ group :production do
 end
 
 gem 'thin'
-gem 'therubyracer'
+gem 'therubyracer', :platforms => :ruby
  
